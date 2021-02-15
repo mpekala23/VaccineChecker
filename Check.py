@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from twilio.rest import Client
 
-client = Client("YOUR TWILIO ACCOUNT", "YOUR TWILIO PASSWORD")
+client = Client("YOUR TWILIO ACCOUNT", "YOUR TWILIO TOKEN")
 
 driver = webdriver.Chrome()
 driver.get('https://www.cvs.com/immunizations/covid-19-vaccine')
