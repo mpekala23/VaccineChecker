@@ -23,7 +23,7 @@ for li in lis:
   if (len(text) > 0 and text != 'Arkansas' and text != 'California' and text != 'Massachusetts' and text != 'New Jersey'):
     textMessage += "\n" + text
 
-client.messages.create(to="+16127038623", 
+client.messages.create(to="+YOURPHONE", 
                        from_="+16144186473", 
                        body=textMessage)
 
